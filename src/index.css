@@ -45,5 +45,7 @@
         @apply border-2 bg-white/10 border-white/20;
     }
 
-
+    .nav-line {
+        @apply relative md:pb-1 md:border-b-2 md:border-transparent md:bg-gradient-to-r md:from-cyan-400 md:to-blue-500 md:bg-[length:0%_2px] md:bg-no-repeat md:bg-left-bottom md:transition-[background-size] md:duration-300 md:ease-out hover:bg-[length:100%_2px];
+    }
 }

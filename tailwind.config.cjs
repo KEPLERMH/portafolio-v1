@@ -15,6 +15,7 @@ module.exports = {
         trirdtext: "#9CA3AF ",
         acentocyan: "#67E8F9",
       },
+
       keyframes: {
         float: {
           "0%, 100%": { transform: "transLateY(0)" },
