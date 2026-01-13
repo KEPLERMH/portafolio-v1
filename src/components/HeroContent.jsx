@@ -3,7 +3,7 @@ import { Github, Linkedin, Mail, ArrowDown } from "lucide-react"
 
 const HeroContent = () => {
     return (
-        <div className="m-3 flex flex-col justify-center items-center  mt-20">
+        <div className="m-3 flex flex-col justify-center items-center mt-20">
             <h5 className="text-center text-acentocyan bg-border-btns rounded-2xl px-3 py-[4px] text-sm mb-6">🙌<span>  Hola, soy</span></h5>
 
             <div className="flex flex-col justify-center items-center gap-4">
