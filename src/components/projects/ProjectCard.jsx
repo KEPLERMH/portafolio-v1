@@ -11,8 +11,8 @@ const ProjectCard = ({ img, title, desc, techs, github, demo }) => {
             </figure>
 
             <div className='p-5 flex flex-col gap-2'>
-                <h3 className='text-white text-2xl font-bold group-hover:text-acentocyan transition-colors duration-500 ease-out'>{title}</h3>
-                <p className='text-trirdtext text-xl mb-1 '>{desc}</p>
+                <h3 className='text-white text-xl font-semibold group-hover:text-acentocyan transition-colors duration-500 ease-out'>{title}</h3>
+                <p className='text-trirdtext text-[15px] mb-1 '>{desc}</p>
                 <ul className='flex gap-2 mb-2'>
                     {techs.map(items => <li className='tech-tag' key={items}>{items}</li>)}
                 </ul>

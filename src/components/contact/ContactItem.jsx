@@ -7,8 +7,8 @@ const ContactItem = ({ icon: Icon, label, value, href }) => {
                 <Icon className='h-7 w-7' />
             </div>
             <div>
-                <p className='text-trirdtext text-xl lg:text-lg'>{label}</p>
-                <a href={href} className='hover:text-acentocyan text-lg lg:text-[17px]'>{value}</a>
+                <p className='text-trirdtext text-lg'>{label}</p>
+                <a href={href} className='hover:text-acentocyan text-sm'>{value}</a>
             </div>
         </li>
     )

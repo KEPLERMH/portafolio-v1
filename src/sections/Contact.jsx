@@ -27,14 +27,14 @@ const Contact = () => {
     return (
         <section id="contact" className='px-6 py-24 bg-gradient-to-b from-slate-950 to-slate-900 text-secondarytext grid gap-y-14 md:grid-cols-2 md:gap-x-16 xl:px-36'>
             <header className='flex flex-col items-center justify-center gap-2 col-span-full'>
-                <p className='text-acentocyan text-xl'>Contacto</p>
-                <h2 className='text-5xl font-medium md:text-6xl lg:text-7xl'>Trabajemos Juntos</h2>
-                <p className='text-xl text-trirdtext md:text-[15px] lg:text-lg'>¿Tienes un proyecto en mente? Me encantaría escucharlo</p>
+                <p className='text-acentocyan text-sm'>Contacto</p>
+                <h2 className='text-4xl font-medium md:text-5xl'>Trabajemos Juntos</h2>
+                <p className='text-sm text-trirdtext md:text-[15px]'>¿Tienes un proyecto en mente? Me encantaría escucharlo</p>
             </header>
 
             <div className='mt-6 flex flex-col gap-5'>
-                <h3 className='font-medium text-4xl lg:text-3xl'>Información de Contacto</h3>
-                <p className='text-trirdtext text-xl'>Estoy disponible para proyectos freelance, colaboraciones o simplemente para charlar sobre tecnología y diseño.</p>
+                <h3 className='font-medium text-2xl'>Información de Contacto</h3>
+                <p className='text-trirdtext text-sm'>Estoy disponible para proyectos freelance, colaboraciones o simplemente para charlar sobre tecnología y diseño.</p>
                 <ul className='flex flex-col gap-8'>
                     {contactData.map(item =>
                         <ContactItem key={item.label} {...item} />

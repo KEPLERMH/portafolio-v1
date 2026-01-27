@@ -40,7 +40,7 @@
 
 @layer components {
     .btns-cta {
-        @apply p-[14px] rounded-full cursor-pointer transition duration-300 ease-in-out hover:scale-110 hover:bg-white/30;
+        @apply p-[10px] rounded-full cursor-pointer transition duration-300 ease-in-out hover:scale-110 hover:bg-white/30;
     }
 
     .bg-border-btns {
@@ -52,10 +52,10 @@
     }
 
     .about-li {
-        @apply bg-border-btns rounded-3xl px-5 py-2;
+        @apply bg-border-btns rounded-3xl px-4 py-2;
     }
 
     .tech-tag {
-        @apply bg-cyan-300/20 text-acentocyan text-lg px-3 rounded-xl;
+        @apply bg-cyan-300/20 text-acentocyan text-[12px] px-3 py-1 rounded-full;
     }
 }

@@ -10,14 +10,14 @@ const Footer = () => {
             <div className='flex flex-col items-center gap-7 justify-center mb-9 md:flex-row md:justify-evenly'>
                 <div className=' space-y-1'>
                     <h3 className='text-center font-medium bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent text-2xl md:text-start'>Kepler Matos H.</h3>
-                    <p className='text-center text-trirdtext text-lg'>Desarrollador Fronted Junior & Diseñador UI/UX</p>
+                    <p className='text-center text-trirdtext text-sm'>Desarrollador Fronted Junior & Diseñador UI/UX</p>
                 </div>
                 <ul className='flex gap-4'>
                     {
                         socialLiks.map(link => <SocialIcons key={link.label}{...link} variant='footer' />)
                     }
                 </ul>
-                <small className='text-[16px] text-trirdtext'>
+                <small className='text-sx text-trirdtext'>
                     © 2026 Hecho con <span className='text-red-600'>❤</span> por Kepler Matos
                 </small>
             </div>
