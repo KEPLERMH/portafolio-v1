@@ -17,8 +17,8 @@ const ProjectCard = ({ img, title, desc, techs, github, demo }) => {
                     {techs.map(items => <li className='tech-tag' key={items}>{items}</li>)}
                 </ul>
                 <div className='flex gap-3 [&>a:hover]:text-acentocyan'>
-                    <a href={github} className='flex items-center gap-1' target='_blank'><Github className='w-6 h-6' /><span className='text-lg'>Codigo</span></a>
-                    <a href={demo} className='flex items-center gap-1' target='_blank'><Redo2 className='w-6 h-6' /><span className='text-lg'>Demo</span></a>
+                    <a href={github} className='flex items-center gap-1' target='_blank'><Github className='w-4 h-4' /><span className='text-sm'>Codigo</span></a>
+                    <a href={demo} className='flex items-center gap-1' target='_blank'><Redo2 className='w-4 h-4' /><span className='text-sm'>Demo</span></a>
                 </div>
             </div>
 

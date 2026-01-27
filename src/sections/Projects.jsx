@@ -15,7 +15,7 @@ const Projects = () => {
             <div className='pointer-events-none border-2 absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-cyan-600/10 rounded-full blur-3xl '></div>
             <header className='flex flex-col justify-center items-center gap-4 mb-11'>
                 <p className='text-acentocyan text-sm'>Mi Trabajo</p>
-                <h2 className='font-medium text-4xl md:text-5xl'>Proyectos Destacados</h2>
+                <h2 className='font-medium text-center text-4xl md:text-5xl'>Proyectos Destacados</h2>
                 <p className='text-trirdtext text-center text-[16px] md:text-lg'>Una selección de mis proyectos más recientes y desafiantes</p>
             </header>
 

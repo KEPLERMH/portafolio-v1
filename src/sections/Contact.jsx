@@ -29,7 +29,7 @@ const Contact = () => {
             <header className='flex flex-col items-center justify-center gap-2 col-span-full'>
                 <p className='text-acentocyan text-sm'>Contacto</p>
                 <h2 className='text-4xl font-medium md:text-5xl'>Trabajemos Juntos</h2>
-                <p className='text-sm text-trirdtext md:text-[15px]'>¿Tienes un proyecto en mente? Me encantaría escucharlo</p>
+                <p className='text-sm text-center text-trirdtext md:text-[15px]'>¿Tienes un proyecto en mente? Me encantaría escucharlo</p>
             </header>
 
             <div className='mt-6 flex flex-col gap-5'>
