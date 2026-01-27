@@ -5,10 +5,14 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    fontFamily: {
+      sans: ['Inter', 'system-ui', 'sans-serif'],
+    },
     extend: {
       animation: {
         float: "float 2s ease-in-out infinite",
       },
+
       colors: {
         maintext: "#FFFFF",
         secondarytext: "#D1D5DB",
