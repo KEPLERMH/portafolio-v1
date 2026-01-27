@@ -28,10 +28,10 @@ const featuresAbout = [
 
 const About = () => {
     return (
-        <section className='bg-slate-900 text-secondarytext px-5 pt-16 pb-12 grid gap-9'>
-            <header className='flex flex-col items-center justify-center'>
-                <p className='text-[10px] text-acentocyan'>Sobre  Mi</p>
-                <h2 className=' font-medium text-3xl text-center md:text-4xl'>Transformando Ideas en Realidad</h2>
+        <section id="about" className='bg-slate-900 text-secondarytext px-8 pt-16 pb-12 grid gap-9 2xl:px-36'>
+            <header className='flex gap-3 flex-col items-center justify-center'>
+                <p className='text-xl text-acentocyan'>Sobre  Mi</p>
+                <h2 className=' font-medium text-5xl text-center lg:text-6xl'>Transformando Ideas en Realidad</h2>
             </header>
 
             <article className='grid gap-8 md:grid-cols-2 md:gap-16'>
@@ -39,16 +39,18 @@ const About = () => {
                     <img src={aboutImg} alt="about-img" className=' w-full h-full object-cover ' />
                 </figure>
 
-                <div className='flex flex-col gap-5'>
-                    <p >Soy un desarrollador apasionado con más de 5 años de experiencia creando productos digitales que combinan funcionalidad y estética.</p>
-                    <p className='text-sm text-trirdtext'>Mi enfoque se centra en escribir código mantenible, diseñar experiencias de usuario excepcionales y mantenerme actualizado con las últimas tendencias tecnológicas. Creo en el aprendizaje continuo y la colaboración efectiva.</p>
-                    <ul className='flex gap-3 [&>li]:text-[16px] flex-wrap'>
+                <div className='flex flex-col gap-8'>
+                    <p className='text-2xl'>Soy un desarrollador apasionado, especializado en crear interfaces modernas con HTML, CSS, JavaScript, React y TypeScript, aplicando buenas prácticas de diseño y control de versiones con Git.</p>
+                    <p className='text-xl text-trirdtext'>Mi enfoque se centra en escribir código mantenible, diseñar experiencias de usuario excepcionales y mantenerme actualizado con las últimas tendencias tecnológicas. Creo en el aprendizaje continuo y la colaboración efectiva.</p>
+                    <ul className='flex gap-4 [&>li]:text-xl flex-wrap'>
                         <li className='about-li'>HTML</li>
                         <li className='about-li'>CSS</li>
-                        <li className='about-li'>JavaScript</li>
                         <li className='about-li'>Tailwind</li>
                         <li className='about-li'>Sass</li>
+                        <li className='about-li'>JavaScript</li>
                         <li className='about-li'>React</li>
+                        <li className='about-li'>TypeScript</li>
+                        <li className='about-li'>Git</li>
                     </ul>
                 </div>
             </article>
@@ -56,7 +58,7 @@ const About = () => {
             <section className='grid gap-5 md:grid-cols-2 lg:grid-cols-4'>
                 {
                     featuresAbout.map(feature => <FeatureAboutCard
-                        key={featuresAbout.title}
+                        key={feature.title}
                         icon={feature.icon}
                         title={feature.title}
                         text={feature.text} />)
