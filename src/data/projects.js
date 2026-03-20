@@ -1,6 +1,6 @@
 import p1 from "../assets/img/projects/weather-img.png"
 import p2 from "../assets/img/projects/techStore-img.png"
-import p3 from "../assets/img/projects/p-3.jfif"
+import p3 from "../assets/img/projects/taskFlow-img.png"
 
 export const projects = [
     {
@@ -21,14 +21,14 @@ export const projects = [
         github: "https://github.com/KEPLERMH/tech-store",
         demo: "https://tech-store-lyart-three.vercel.app/",
     },
-    // {
-    //     id: 3,
-    //     title: "Social Media Dashboard",
-    //     description: "Dashboard analytics para gestión de múltiples redes sociales con métricas en tiempo real.",
-    //     image: p3,
-    //     techs: ["React", "Tailwind", "Javascript"],
-    //     github: "https://github.com/tuusuario/ecommerce",
-    //     demo: "https://ecommerce-demo.com",
-    // },
+    {
+        id: 3,
+        title: "TaskFlow – Fullstack Task Manager",
+        description: "Aplicación fullstack en desarrollo para la gestión de tareas con autenticación segura y arquitectura escalable.",
+        image: p3,
+        techs: ["React", "Tailwind", "Node.js", "Express", "PostgreSQL"],
+        github: "https://github.com/KEPLERMH/task-flow",
+        demo: "",
+    },
 
 ];
