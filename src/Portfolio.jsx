@@ -8,7 +8,7 @@ import Hero from './sections/Hero'
 
 const Portfolio = () => {
     return (
-        <main className=''>
+        <main>
             <Hero>
                 <Navbar />
                 <HeroContent />

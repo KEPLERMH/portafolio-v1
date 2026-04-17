@@ -6,7 +6,7 @@ import { navLinks } from '../data/navLinks';
 import { socialLiks } from '../data/socialLinks';
 const Footer = () => {
     return (
-        <footer className='bg-slate-950 text-secondarytext pt-12'>
+        <footer className='scroll-mt-16 bg-slate-950 text-secondarytext pt-12'>
             <div className='flex flex-col items-center gap-7 justify-center mb-9 md:flex-row md:justify-evenly'>
                 <div className=' space-y-1'>
                     <h3 className='text-center font-medium bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent text-2xl md:text-start'>Kepler Matos H.</h3>

@@ -5,19 +5,31 @@ const Navbar = () => {
 
     const [isOpenNav, SetIsOpenNav] = useState(false);
     const [scrolled, SetScrolled] = useState(false);
+    console.log(isOpenNav);
 
     useEffect(() => {
         const handleScroll = () => {
             SetScrolled(window.scrollY > 10);
         }
 
+        const handleResize = () => {
+            if (window.innerWidth >= 768) {
+                SetIsOpenNav(false);
+            }
+        }
+
+        window.addEventListener("resize", handleResize);
+
+
+
         window.addEventListener("scroll", handleScroll);
-        return () => window.removeEventListener("acroll", handleScroll)
+        return () => window.removeEventListener("scroll", handleScroll)
+            && window.removeEventListener("resize", handleResize);
     }, [])
 
 
     return (
-        <header className={`flex flex-col gap-4 fixed top-0 w-full z-50 px-6 py-3 transition-colors duration-300 ${scrolled ? "bg-black/50 backdrop-blur-md" : "bg-transparent"}`}>
+        <header className={` rounded-b-3xl flex flex-col gap-4 fixed top-0 w-full z-50 px-6 py-3 transition-colors duration-300 ${scrolled ? "bg-black/50 backdrop-blur-md" : "bg-transparent"} lg:px-32`}>
 
             <div className='flex justify-between items-center w-full'>
                 <h1 className='
@@ -52,7 +64,7 @@ const Navbar = () => {
             {/* Mobile nav */}
             {
                 isOpenNav && (
-                    <nav className=" border-t-2 border-white/20 py-3 ">
+                    <nav className=" border-t-2 border-white/20 py-3  ">
                         <NavLinks direction='column' onClick={() => SetIsOpenNav(false)} />
 
                         <button className=" text-[16px] px-4 py-2 rounded-3xl btn-custom transition duration-400 ease-in-out hover:shadow-xl hover:shadow-cyan-500/50 hover:scale-105 mt-6 w-full">Hablemos</button>

@@ -11,7 +11,7 @@ import { socialLiks } from '../data/socialLinks'
 
 const Projects = () => {
     return (
-        <section id="projects" className='relative px-5 pt-14 text-secondarytext bg-gradient-to-b from-slate-900 to-slate-950 overflow-hidden xl:px-36 '>
+        <section id="projects" className='scroll-mt-16 relative px-5 pt-14 text-secondarytext bg-gradient-to-b from-slate-900 to-slate-950 overflow-hidden xl:px-36 '>
             <div className='pointer-events-none border-2 absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-cyan-600/10 rounded-full blur-3xl '></div>
             <header className='flex flex-col justify-center items-center gap-4 mb-11'>
                 <p className='text-acentocyan text-sm'>Mi Trabajo</p>

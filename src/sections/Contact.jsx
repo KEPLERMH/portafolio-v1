@@ -25,7 +25,7 @@ export const contactData = [
 ];
 const Contact = () => {
     return (
-        <section id="contact" className='px-6 py-24 bg-gradient-to-b from-slate-950 to-slate-900 text-secondarytext grid gap-y-14 md:grid-cols-2 md:gap-x-16 xl:px-36'>
+        <section id="contact" className='scroll-mt-16 px-6 py-24 bg-gradient-to-b from-slate-950 to-slate-900 text-secondarytext grid gap-y-14 md:grid-cols-2 md:gap-x-16 xl:px-36'>
             <header className='flex flex-col items-center justify-center gap-2 col-span-full'>
                 <p className='text-acentocyan text-sm'>Contacto</p>
                 <h2 className='text-4xl font-medium md:text-5xl'>Trabajemos Juntos</h2>

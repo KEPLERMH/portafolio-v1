@@ -13,11 +13,10 @@ const HeroContent = () => {
           Kepler Matos
         </h1>
         <h3 className="text-xl text-center text-secondarytext md:text-[22px]">
-          Desarrollador Web Full Stack Junior & Diseñador UI/UX
+          Desarrollador Full Stack | Bachiller en Ingeniería de Sistemas
         </h3>
         <p className="text-center text-lg  text-trirdtext md:text-xl">
-          Creando experiencias digitales excepcionales con código limpio y
-          diseño innovador
+          Especializado en React, Node.js, Java Spring Boot y soluciones web escalables
         </p>
       </div>
       <div className="">

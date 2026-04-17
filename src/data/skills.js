@@ -13,15 +13,18 @@ export const skillData = [
     category: "Backend",
     skills: [
       { name: "Node.js", percent: 30 },
+      { name: "Java(Spring Boot)", percent: 15 },
       { name: "SQL", percent: 60 },
       { name: "GraphQL", percent: 2 },
       { name: "REST APIs", percent: 20 },
+
     ],
   },
   {
     category: "Tools & Others",
     skills: [
       { name: "Git", percent: 70 },
+      { name: "GitHub", percent: 70 },
       { name: "Figma", percent: 30 },
       { name: "Docker", percent: 5 },
     ],
@@ -30,15 +33,15 @@ export const skillData = [
 
 export const statsData = [
   {
-    number: 5,
+    number: 6,
     description: "Proyectos Completados",
   },
   {
-    number: 1,
+    number: 2,
     description: "Clientes Satisfechos",
   },
   {
-    number: 1 / 2,
+    number: 1,
     description: "Años de Experiencia",
   },
   {
