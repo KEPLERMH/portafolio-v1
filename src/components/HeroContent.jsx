@@ -16,7 +16,7 @@ const HeroContent = () => {
           Desarrollador Full Stack | Bachiller en Ingeniería de Sistemas
         </h3>
         <p className="text-center text-lg  text-trirdtext md:text-xl">
-          Especializado en React, Node.js, Java Spring Boot y soluciones web escalables
+          Especializado en React, Node.js, C#, ASP.NET Core y soluciones escalables
         </p>
       </div>
       <div className="">

@@ -51,7 +51,7 @@ const About = () => {
 
         <div className="flex flex-col gap-8">
           <p className="text-lg">
-            Desarrollador web full stack enfocado en crear aplicaciones modernas, escalables y funcionales utilizando HTML, CSS, JavaScript, TypeScript, React.js, Node.js y Spring Boot. Apasionado por construir soluciones digitales sólidas, con interfaces atractivas, alto rendimiento y una experiencia de usuario intuitiva.
+            Desarrollador Full Stack con enfoque en frontend y backend, utilizando React, TypeScript y C# (ASP.NET Core). Experiencia en diseño de APIs REST, arquitecturas escalables y desarrollo de aplicaciones eficientes, seguras y mantenibles.
           </p>
           <p className="text-sm text-trirdtext">
 
@@ -60,14 +60,14 @@ const About = () => {
           <ul className="flex gap-4 [&>li]:text-sm flex-wrap">
             <li className="about-li">HTML</li>
             <li className="about-li">CSS</li>
-            <li className="about-li">Tailwind</li>
+            <li className="about-li">Tailwind CSS</li>
             <li className="about-li">Sass</li>
             <li className="about-li">JavaScript</li>
-            <li className="about-li">React.js</li>
+            <li className="about-li">ReactJS</li>
             <li className="about-li">TypeScript</li>
             <li className="about-li">Git</li>
-            <li className="about-li">Node.js</li>
-            <li className="about-li">Java(Spring Boot)</li>
+            <li className="about-li">NodeJS</li>
+            <li className="about-li">C# (ASP.NET Core)</li>
           </ul>
         </div>
       </article>

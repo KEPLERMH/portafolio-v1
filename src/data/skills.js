@@ -2,11 +2,13 @@ export const skillData = [
   {
     category: "Frontend",
     skills: [
+      { name: "HTML", percent: 75 },
+      { name: "CSS Puro", percent: 80 },
+      { name: "Tailwind CSS", percent: 70 },
+      { name: "Sass", percent: 80 },
       { name: "React", percent: 60 },
       { name: "TypeScript", percent: 40 },
-      { name: "CSS Puro", percent: 80 },
-      { name: "Sass", percent: 80 },
-      { name: "Tailwind css", percent: 70 },
+
     ],
   },
   {
@@ -14,9 +16,9 @@ export const skillData = [
     skills: [
       { name: "Node.js", percent: 30 },
       { name: "Java(Spring Boot)", percent: 15 },
+      { name: "C# (ASP.NET Core)", percent: 35 },
       { name: "SQL", percent: 60 },
-      { name: "GraphQL", percent: 2 },
-      { name: "REST APIs", percent: 20 },
+      { name: "REST APIs", percent: 35 },
 
     ],
   },
@@ -26,7 +28,7 @@ export const skillData = [
       { name: "Git", percent: 70 },
       { name: "GitHub", percent: 70 },
       { name: "Figma", percent: 30 },
-      { name: "Docker", percent: 5 },
+      { name: "Docker", percent: 10 },
     ],
   },
 ];
